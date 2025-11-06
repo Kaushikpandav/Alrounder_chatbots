@@ -1,0 +1,66 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# ----------------------------
+# Virtual Environments
+# ----------------------------
+.venv/
+venv/
+env/
+myenv/
+ENV/
+
+# ----------------------------
+# IDE / Editor Files
+# ----------------------------
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------------
+# OS Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# Environment Variables / Secrets
+# ----------------------------
+.env
+config/secrets.env
+config/secrets.yaml
+*.key
+*.pem
+
+# ----------------------------
+# Data & Models
+# ----------------------------
+data/
+logs/
+models/checkpoints/
+models/embeddings/
+tmp/
+cache/
+
+# ----------------------------
+# Docker / Build
+# ----------------------------
+*.pid
+*.log
+*.bak
+*.tmp
+docker/volumes/
+docker/tmp/
